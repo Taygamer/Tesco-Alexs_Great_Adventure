@@ -1,20 +1,5 @@
 """
-van_snatcher_v2.py
-Enhanced single-file pixel-art runner:
- - Login/Sign-up with persistent users.json
- - Menu with animated background
- - Phase1: steal the van (top-down)
- - Phase2: endless runner (Subway-Surfers style)
- - Animated coins collectible in runner
- - Nicer sound cues (pygame recommended), winsound fallback
- - Procedural pixel-art sprite generation (no external assets)
- - Shop with cosmetics & multipliers; saves to user profile
-Requirements:
- - Python 3.8+
- - Pillow: pip install pillow
- - (Optional) pygame for better audio: pip install pygame
-Run:
- python van_snatcher_v2.py
+# Tesco:Alex's Great Adventure
 """
 
 import tkinter as tk
@@ -468,7 +453,7 @@ def rects_overlap(a,b):
 # -------------------------
 class VanSnatcherApp:
     def __init__(self, root):
-        self.root = root; self.root.title("Van Snatcher — Pixel Runner v2")
+        self.root = root; self.root.title("Tesco:Alex's Great Adventure")
         self.canvas = tk.Canvas(root, width=WIDTH, height=HEIGHT, bg="#111")
         self.canvas.pack()
         # convert PIL frames to Tk PhotoImages for canvas rendering
@@ -516,7 +501,7 @@ class VanSnatcherApp:
     def show_login(self):
         self.mode = "login"; self.canvas.delete("all"); self.canvas.image_cache.clear()
         # animated background: moving stripes
-        self.canvas.create_text(WIDTH//2, 72, text="VAN SNATCHER (pixel) — LOG IN / SIGN UP", font=("Consolas",22), fill="#fff")
+        self.canvas.create_text(WIDTH//2, 72, text="Tesco:Alex's Great Adventure — LOG IN / SIGN UP", font=("Consolas",22), fill="#fff")
         bx, by, bw, bh = WIDTH//2 - 120, 180, 240, 50
         r1 = self.canvas.create_rectangle(bx, by, bx+bw, by+bh, fill="#2a9d8f", outline="")
         self.canvas.create_text(bx+bw//2, by+bh//2, text="Login", font=("Consolas", 16, "bold"))
@@ -567,7 +552,7 @@ class VanSnatcherApp:
 
     def show_menu(self):
         self.mode = "menu"; self.canvas.delete("all"); self.canvas.image_cache.clear()
-        self.canvas.create_text(WIDTH//2, 64, text=f"VAN SNATCHER — {self.current}", font=("Consolas",24), fill="#fff")
+        self.canvas.create_text(WIDTH//2, 64, text=f"Tesco:Alex's Great Adventure — {self.current}", font=("Consolas",24), fill="#fff")
         bx,by,bw,bh = WIDTH//2-140, 160, 280, 56
         r1 = self.canvas.create_rectangle(bx,by,bx+bw,by+bh, fill="#2a9d8f")
         self.canvas.create_text(bx+bw//2, by+bh//2, text="Play", font=("Consolas",18,"bold"))
@@ -825,7 +810,7 @@ def main():
     root = tk.Tk()
     app = VanSnatcherApp(root)
     root.config(bg="#111")
-    root.iconphoto(False, PhotoImage(file="C:\Users\tayga\Desktop\Tesco Stealer\Tesco.png"))
+    root.iconphoto(False, PhotoImage(file="Tesco.png"))
     root.resizable(False, False)
     root.mainloop()
 
