@@ -1,4 +1,13 @@
-# Van Snatcher — Pixel Runner (single-file Python game)
+I'm making a New Game and Set myself these rules
+
+I must Use Python and its full Compatibilities
+and I can only use AI
+(Yes With the New GPT 5 I've set myself to the challenge and use it to see how far it can go and how much it will take my job)
+The game will be about stealing a Tesco Van so if you want any suggestions to the game Let me Know
+
+This will be incredibly funny 😭 (This game is for My older brother Who loves Tescos :sob:)
+So Here it is
+# Tesco - Alex's Grand Adventure — Pixel Runner (single-file Python game)
 
 **Van Snatcher v2** is a small pixel-art endless runner with a top-down theft intro.
 Everything is contained in a single Python file (`van_snatcher_v2.py`) that procedurally
@@ -42,4 +51,4 @@ generates pixel sprites, handles login/signup with a local `users.json`, and sav
 - Levels / daily challenges.
 
 Enjoy! This game is for entertainment — do not replicate or enact any real-life wrongdoing.
-
+(THIS IS ALL MADE BY AI NOT ME THIS IS MADE TO TEST THE POWER OF GPT 5)
