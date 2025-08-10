@@ -37,7 +37,7 @@ generates pixel sprites, handles login/signup with a local `users.json`, and sav
 ## Files
 - `van_snatcher_v2.py` — main game script (single file).
 - `users.json` — created automatically when you sign up; stores users and their progress.
-
+- 'Tesco.png" - Tesco Image
 ## Tips & Notes
 - The game generates pixel sprites at run-time; it may take a small moment on first launch.
 - If you want richer sound, install `pygame`. If not available, the script will fallback gracefully.
