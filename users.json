@@ -1,0 +1,27 @@
+{
+  "users": {
+    "Taygamerlol": {
+      "pw_hash": "ed1a80eaf813a64064fd0ae7a0442a3b78f20bceaf026ac354a2bb2cc961ca9e",
+      "pw_salt": "a21647f1ad6fe6cf525c87c55cba0ff6",
+      "coins": 1718,
+      "highscore": 239,
+      "owned": [
+        "sneakers",
+        "mask",
+        "wallet2",
+        "alex_grey",
+        "alex_black",
+        "alex_red",
+        "van_blue",
+        "van_white"
+      ],
+      "equipped": {
+        "alex": "alex_red",
+        "van": "van_white"
+      },
+      "multiplier": 1.0,
+      "session_active": false
+    }
+  },
+  "current_user": null
+}
